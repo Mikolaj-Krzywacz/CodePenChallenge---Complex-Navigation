@@ -15,16 +15,20 @@
       rel="stylesheet"
       href="./css/styles.css"
     />
+    <script src="script.js"></script>
   </head>
   <body>
-    <div class="hero-banner">
+    <div class="hero-banner container">
       <div class="text-center preview-description">
         <span class="eyelid">THIS WEEK`S CHALLENGE</span><br />
         <h1>Complex Navigation</h1>
         <small style="font-style: oblique">psst kinda mobile friendly</small>
       </div>
     </div>
-    <header id="nav-menu">
+    <header
+      class="container"
+      id="nav-menu"
+    >
       <nav class="nav">
         <div class="logo-container">
           <a
@@ -65,19 +69,21 @@
                 >Home</a
               >
             </li>
-            <li class="nav__item">
+            <li class="nav__item nav__item--dropdown">
               <a
                 class="nav__link"
                 href="#"
                 >Products</a
               >
+              <i class="fa-solid fa-chevron-down"></i>
             </li>
-            <li class="nav__item">
+            <li class="nav__item nav__item--dropdown">
               <a
                 class="nav__link"
                 href="#"
                 >Services</a
               >
+              <i class="fa-solid fa-chevron-down"></i>
             </li>
             <li class="nav__item">
               <a
