@@ -1,0 +1,23 @@
+/* Importing fonts */
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Work+Sans:wght@300;500&display=swap");
+
+/* Root variables for color */
+:root {
+  --background: #131313;
+  --primary: #42ffc0;
+  --secondary: #19c96d;
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: "Work Sans", sans-serif;
+}
